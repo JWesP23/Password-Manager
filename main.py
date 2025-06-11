@@ -44,7 +44,7 @@ def flash_copy_message():
     flash = copied_label.after(2000, func= copied_label.grid_forget)
 
 #Saves passwords to a pandas dataframe which will be printed to a file later
-def save():
+def save(event=None):
     website = website_entry.get()
     password = password_entry.get()
     username = email_entry.get()
@@ -100,9 +100,11 @@ password_button.grid(row= 4, column= 3, sticky= "w", pady= 2)
 #Add button
 add_button = Button(text= "Add", width= 36, command= save)
 add_button.grid(row= 5, column= 2, columnspan= 2, pady= 2)
+window.bind(sequence= '<Return>',func= save)
 
 #password copied to clipboard message
 copied_label = Label(text= "Password copied to clipboard", font= ("roboto", 8, "italic"))
+
 
 
 window.mainloop()
