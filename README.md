@@ -8,7 +8,7 @@ A simple, interactive password manager built using Python and Tkinter. This appl
 - Data Storage: Saves website, email/username, and password entries to a local text file (`passwords_file_ex.txt`) in a structured format using `pandas`.
 - User Interface: Built with `Tkinter`, includes clean layout, logo display, and helpful UI feedback (e.g., “Password copied to clipboard”).
 
-## Tech Stack
+## Dependencies
 
 - Python 3.x
 - Tkinter (`tkinter`)
@@ -19,5 +19,7 @@ A simple, interactive password manager built using Python and Tkinter. This appl
 ## How to Run
 
    ```bash
+   git clone https://github.com/JWesP23/Password-Manager.git
+   cd Password-Manager
    pip install pandas pillow pyperclip
-   python password_manager.py
+   python main.py
