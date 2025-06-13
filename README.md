@@ -3,7 +3,7 @@ A simple, interactive password manager built using Python and Tkinter. This appl
 
 ## Preview
 
-![Flashcard Example](password_manager_preview.png)
+![Password Manager Example](password_manager_preview.png)
 
 ## Features
 
