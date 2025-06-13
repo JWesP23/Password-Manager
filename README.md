@@ -3,10 +3,12 @@ A simple, interactive password manager built using Python and Tkinter. This appl
 
 ## Features
 
-- Password Generation: Creates complex passwords with letters, numbers, and symbols.
-- Clipboard Support: Copies generated passwords to the clipboard automatically.
-- Data Storage: Saves website, email/username, and password entries to a local text file (`passwords_file_ex.txt`) in a structured format using `pandas`.
-- User Interface: Built with `Tkinter`, includes clean layout, logo display, and helpful UI feedback (e.g., “Password copied to clipboard”).
+- A GUI-based password manager built with Python and Tkinter. It allows users to:
+- Save and manage credentials (website, username/email, password)
+- Generate secure random passwords
+- Search for saved credentials
+- Automatically copy passwords to the clipboard
+- Store data persistently in a JSON file using a pandas DataFrame
 
 ## Dependencies
 
@@ -15,6 +17,7 @@ A simple, interactive password manager built using Python and Tkinter. This appl
 - Pillow (`PIL.Image`, `ImageTk`)
 - Pandas (`pandas`)
 - Pyperclip (`pyperclip`)
+- Passwords will be saved in 'passwords_file_ex.json' which will be created if it doesn't exist when running the program
 
 ## How to Run
 
