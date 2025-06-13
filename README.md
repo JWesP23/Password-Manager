@@ -1,6 +1,10 @@
 # Password Manager
 A simple, interactive password manager built using Python and Tkinter. This application allows users to generate strong passwords, copy them to the clipboard, and save login credentials (website, email/username, password) to a text file using a clean graphical interface.
 
+## Preview
+
+![Flashcard Example](password_manager_preview.png)
+
 ## Features
 
 - A GUI-based password manager built with Python and Tkinter. It allows users to:
